@@ -3,6 +3,8 @@
 *************************************************************************************
 *************************************************************************************
 "Facial recognition with Python: A program to recognize the German Federal Cabinet"
+-German text below-
+
 
 1) Own question/objective
 
@@ -29,7 +31,17 @@ In total I used three codes to automatically recognize the members of the curren
 After several iterations my "Federal Government Face Recognition" has a relatively good recognition rate for some members of the federal government (Coincidentally especially for the CDU members: Angela Merkel, Annegret Kamp-Karrenbauer, Helge Braun, Anja Karliczek). Nevertheless, this is mainly due to 1) the good image quality in pixels 2) the high number of available individual photos 3) Probably due to certain "easily recognisable unique selling points". 
 The file "d" shows how Angela Merkel is recognized and the corresponding probability is displayed.
 
-I have learned several things from this project. From a technical point of view I wrote my first own Python program and it was very exciting to run through different iterations, to understand error messages or to learn how to formulate questions for stackoverflow. In the social sciences I have been studying how the different iterations of face recognition work, how classifiers work and how OpenCV's classifiers were developed. All in all, it's amazing how "little work" these systems can do today and at the same time how easily they can be "outsmarted". Face recognition requires countless images of a person to be able to classify them. However, as soon as the inputs are not clean (i.e. the images for learning), people wear sunglasses or even close one eye, my program does not recognize them anymore. Yes, my program is a very small project with few data, but these musts can be
+From this project I have learned several things. Technically I wrote my first own Python program and it was very exciting to run through different iterations, to understand error messages or to learn how to formulate questions for stackoverflow. As a social scientist, I was interested in how the different iterations of face recognition work, how classifiers work and how OpenCV's classifiers were developed. All in all, it is amazing how little work these systems can do today and at the same time how easily they can be "outsmarted". A face recognition system needs countless images of a person to be able to classify them. But as soon as, for example, the inputs are not clean (i.e. the images for learning), people wear sunglasses or even close one eye, my program does not recognize the people anymore. Yes, my program is a very small project with little data, but these patterns can be transferred to large surveillance systems as the project "Adversial Fashion" (https://adversarialfashion.com/) shows. Finally, these are projects in which I would like to bring in perspective what I have learned from this project.
+
+An example of the recognition of the Federal Cabinet works if you hold a photo (e.g. Angela Merkel) in front of the camera. This is shown in the attached file "Proof_Merkel.jpg". Nevertheless, it also shows that some people are recognized better than others. 
+*************************************************************************************
+*************************************************************************************
+How the program works:
+
+Start: python bundesregierung.py
+Stop: Press the Q key (Quit)
+
+Translated with www.DeepL.com/Translator (free version)
 
 *************************************************************************************
 *************************************************************************************
